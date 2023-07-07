@@ -1,0 +1,123 @@
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .navbar {
+        background-color: #333;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar a {
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+
+    /* CSS for responsive navbar */
+    @media screen and (max-width: 600px) {
+        .navbar {
+            flex-direction: column;
+        }
+    }
+
+    .height_full {
+        min-height: 100vh;
+    }
+
+    .home_header {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .home_container {
+        max-width: 960px;
+        margin: auto;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home_hero-image {
+        max-width: 400px;
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+    .home_intro {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .home_intro h1 {
+        font-size: 32px;
+    }
+
+    .home_intro p {
+        font-size: 18px;
+    }
+
+    .home_skills {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .home_skills h2 {
+        font-size: 24px;
+    }
+
+    .home_skills ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .home_skills li {
+        display: inline-block;
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    /* CSS for responsive layout */
+    @media screen and (max-width: 600px) {
+        .home_container {
+            padding: 10px;
+        }
+
+        .home_intro h1 {
+            font-size: 24px;
+        }
+
+        .home_intro p {
+            font-size: 16px;
+        }
+
+        .home_skills h2 {
+            font-size: 20px;
+        }
+
+        .home_skills li {
+            font-size: 16px;
+        }
+    }
+
+    .footer {
+        background-color: #333;
+        color: #f2f2f2;
+        padding: 20px;
+        text-align: center;
+    }
