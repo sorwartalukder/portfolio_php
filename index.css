@@ -5,6 +5,16 @@
         padding: 0;
     }
 
+    .height_full {
+        min-height: 100vh;
+    }
+
+    .login_error {
+        color: red;
+        text-align: center;
+        margin: 10px;
+    }
+
 
     .navbar {
         background-color: #333;
@@ -33,10 +43,6 @@
         .navbar {
             flex-direction: column;
         }
-    }
-
-    .height_full {
-        min-height: 100vh;
     }
 
     .home_header {

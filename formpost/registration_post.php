@@ -29,9 +29,9 @@ if(isset($_POST['btn'])){
         }else{
             $hash = md5($password);
             $insert_query = "INSERT INTO `users`(`username`, `email`, `password`) VALUES ('$username','$email','$hash')";
-            $result_two = mysqli_query($db_conn, $insert_query);
+            mysqli_query($db_conn, $insert_query);
 
-            header("Location: ../");
+            header("Location: ../login.php");
             exit();
         }
     }
